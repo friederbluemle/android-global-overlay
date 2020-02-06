@@ -11,17 +11,9 @@ android {
         versionCode 1
         versionName "0.9"
     }
-
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-    }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
 }
 
 // Should there be a link to the res directories also?
